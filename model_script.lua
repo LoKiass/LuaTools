@@ -7,3 +7,6 @@ end
 if part2 then
 	part2.BrickColor = BrickColor.new("Black")
 end
+
+for index, part in pairs(model:GetChildren()) do -- print les nom d'un model	print(part.Name)
+end
