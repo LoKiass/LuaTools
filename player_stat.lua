@@ -1,6 +1,3 @@
-local is_touched_status 
-
-
 game.Players.PlayerAdded:Connect(function(player) -- stat du joueur :
 	local leaderstat = Instance.new("Folder")
 	leaderstat.Name = "leaderstats"
